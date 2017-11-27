@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #dbd6d0;
+}
+
+header {
+  background-color: #79756f;
+  border: 3px solid #595652;
+  border-left: none;
+  border-right: none;
+}
+
+h1 {
+  font-family: "Bevan", serif;
+  line-height: 1.5
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
