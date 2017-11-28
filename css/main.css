@@ -25,8 +25,37 @@ header {
 
 h1 {
   font-family: "Bevan", serif;
-  line-height: 1.5
+  line-height: 1.5;
   text-align: center;
   color: #fff;
   margin: 0;
+}
+
+.nav li {
+  background-color: #713837;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.3em;
+  max-width: 20em;
+  padding: 0.75em;
+  border-radius: 3px;
+}
+
+.nav a:hover {
+  background-color: #f33;
+  text-decoration: none;
+  color: #fff;
+  max-width: 20em;
+  padding: 0.75em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+a hover {
+  background-color: #f33;
 }
